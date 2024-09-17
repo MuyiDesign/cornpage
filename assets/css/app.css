@@ -715,6 +715,10 @@ header.fixed {
   padding-top: 60px;
 }
 
+#home #brand .container {
+  max-width: 1400px;
+}
+
 #home #brand .container .inner {
   margin-top: 20px;
   width: 100%;
