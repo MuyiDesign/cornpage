@@ -132,7 +132,7 @@ body {
 .main-title {
     opacity: 0;
     h3 {
-        font-size: 45px;
+        font-size: 42px;
         margin-top: -30px;
         color: #3B3B3B;
         
@@ -745,7 +745,7 @@ header {
                     justify-content: space-between;
                     align-items: center;
                     .content {
-                        width: 65%;
+                        width: 50%;
                         video {
                             border: 6px solid #fff;
                             border-radius: 3px;
@@ -754,7 +754,7 @@ header {
                         }
                     }
                     .content2 {
-                        width: 35%;
+                        width: 50%;
                         display: flex;
                         justify-content: center;
                         ul {
