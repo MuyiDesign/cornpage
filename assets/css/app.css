@@ -716,27 +716,28 @@ header.fixed {
 }
 
 #home #brand .container {
-  max-width: 1400px;
+  max-width: 1200px;
+}
+
+#home #brand .container .main-title h3 {
+  text-align: center;
 }
 
 #home #brand .container .inner {
   margin-top: 20px;
   width: 100%;
   position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 #home #brand .container .inner .left {
-  width: 50%;
-  padding-right: 30px;
+  width: 100%;
 }
 
 #home #brand .container .inner .left h3 {
-  font-size: 36px;
+  font-size: 32px;
   color: #f68803;
   margin-bottom: 0;
+  text-align: center;
 }
 
 #home #brand .container .inner .left p {
@@ -744,6 +745,7 @@ header.fixed {
   letter-spacing: .05em;
   line-height: 30px;
   margin: 30px 0 20px;
+  text-align: left;
 }
 
 #home #brand .container .inner .left ul {
@@ -762,14 +764,39 @@ header.fixed {
 }
 
 #home #brand .container .inner .right {
-  width: 50%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
-#home #brand .container .inner .right video {
+#home #brand .container .inner .right .content {
+  width: 65%;
+}
+
+#home #brand .container .inner .right .content video {
   border: 6px solid #fff;
   border-radius: 3px;
   box-shadow: 3px 10px rgba(0, 0, 0, 0.01);
   width: 100%;
+}
+
+#home #brand .container .inner .right .content2 {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+}
+
+#home #brand .container .inner .right .content2 ul li {
+  list-style-type: none;
+  line-height: 2;
+  color: #6f6f6f;
+  font-size: 22px;
+}
+
+#home #brand .container .inner .right .content2 ul li i {
+  margin-right: 10px;
 }
 
 #home #brand.swiper-slide-active .container .inner .item::before {
