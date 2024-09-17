@@ -807,7 +807,7 @@ header.fixed {
   top: 100%;
 }
 
-#home #mx {
+#home #star {
   background-color: #f9f9f9;
   display: flex;
   align-items: center;
@@ -815,7 +815,7 @@ header.fixed {
   padding-top: 60px;
 }
 
-#home #mx .container .inner {
+#home #star .container .inner {
   margin-top: 20px;
   width: 100%;
   position: relative;
@@ -824,48 +824,48 @@ header.fixed {
   justify-content: space-between;
 }
 
-#home #mx .container .inner .left {
-  width: 50%;
-  padding-right: 30px;
+#home #star .container .inner .left {
+  width: 40%;
 }
 
-#home #mx .container .inner .left h3 {
+#home #star .container .inner .left h3 {
   font-size: 36px;
   color: #f68803;
   margin-bottom: 0;
+  margin-top: 60px;
 }
 
-#home #mx .container .inner .left p {
+#home #star .container .inner .left p {
   color: #232323;
   letter-spacing: .05em;
   line-height: 30px;
   margin: 30px 0 20px;
 }
 
-#home #mx .container .inner .left ul {
+#home #star .container .inner .left ul {
   margin-left: 0;
   padding-left: 0;
 }
 
-#home #mx .container .inner .left ul li {
+#home #star .container .inner .left ul li {
   list-style-type: none;
   line-height: 2;
   color: #6f6f6f;
 }
 
-#home #mx .container .inner .left ul li i {
+#home #star .container .inner .left ul li i {
   margin-right: 10px;
 }
 
-#home #mx .container .inner .right {
+#home #star .container .inner .right {
   width: 50%;
 }
 
-#home #mx.swiper-slide-active .container .inner .item::before {
+#home #star.swiper-slide-active .container .inner .item::before {
   top: 100%;
 }
 
-#home #mx.swiper-slide-active .container .inner .item::after {
+#home #star.swiper-slide-active .container .inner .item::after {
   top: 100%;
 }
 

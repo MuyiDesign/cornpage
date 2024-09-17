@@ -791,7 +791,7 @@ header {
             }
         }
     }
-    #mx {
+    #star {
         background-color: #f9f9f9;
         display: flex;
         align-items: center;
@@ -807,12 +807,13 @@ header {
                 flex-wrap: wrap;
                 justify-content: space-between;
                 .left {
-                    width: 50%;
-                    padding-right: 30px;
+                    width: 40%;
+                    // padding-right: 80px;
                     h3 {
                         font-size: 36px;
                         color: #f68803;
                         margin-bottom: 0;
+                        margin-top: 60px;
                     }
                     p {
                         color: #232323;
