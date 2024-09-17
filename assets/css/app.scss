@@ -579,7 +579,7 @@ header {
                         color: #747474;
                         span {
                             background-size: 100% 100%;
-                            animation: scan 8s linear;
+                            animation: scan 4s linear;
                         }
                         &::before {
                             
@@ -587,7 +587,7 @@ header {
                             
                         }
                         &::after {
-                            transition: all 8s ease-in-out;
+                            transition: all 4s ease-in-out;
                             width: 100%;
                             
                         }

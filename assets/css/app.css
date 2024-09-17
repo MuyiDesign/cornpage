@@ -609,7 +609,7 @@ header.fixed {
 
 #home #advantages.swiper-container .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active span {
   background-size: 100% 100%;
-  animation: scan 8s linear;
+  animation: scan 4s linear;
 }
 
 #home #advantages.swiper-container .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active::before {
@@ -617,7 +617,7 @@ header.fixed {
 }
 
 #home #advantages.swiper-container .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active::after {
-  transition: all 8s ease-in-out;
+  transition: all 4s ease-in-out;
   width: 100%;
 }
 
