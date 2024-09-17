@@ -769,6 +769,7 @@ header.fixed {
   border: 6px solid #fff;
   border-radius: 3px;
   box-shadow: 3px 10px rgba(0, 0, 0, 0.01);
+  width: 100%;
 }
 
 #home #brand.swiper-slide-active .container .inner .item::before {
