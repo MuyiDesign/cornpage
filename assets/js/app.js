@@ -2,7 +2,6 @@
   // 'use strict';
 
   $(document).ready(function () {
-    // $('#footer').load('footer.html');
     $("body").addClass("complete");
       $(".loader").addClass("complete");
     setTimeout(function() {
